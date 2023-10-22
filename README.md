@@ -12,8 +12,8 @@
     #!/bin/bash
 
     #############################################################
-    figlet -f slant "Your Terminal Name" | lolcat
-    figlet -f digital "Description of our terminal" | lolcat
+    figlet -f slant "Terminal Name" | lolcat
+    figlet -f digital "Description of your terminal" | lolcat
     #############################################################
     
 ## Give the Permissions
