@@ -15,8 +15,10 @@
     figlet -f slant "Your Terminal Name" | lolcat
     figlet -f digital "Description of our terminal" | lolcat
     #############################################################
+    
 ## Give the Permissions
     chmod +x banner.sh
+    
 ## Check Script -----> Working or Not 
     ./banner.sh
 
