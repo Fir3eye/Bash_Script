@@ -15,7 +15,7 @@
     figlet -f slant "Your Terminal Name" | lolcat
     figlet -f digital "Description of our terminal" | lolcat
     #############################################################
-## Check / Working or Not 
+## Check Script -----> Working or Not 
     ./banner.sh
 
 ## Now Set the banner in your Terminal Background
@@ -28,5 +28,12 @@
     figlet -f slant "Your Terminal Name" | lolcat
     figlet -f digital "Description of our terminal" | lolcat
     #############################################################
+
+## Restart the Terminal
+    sudo su
+
+## If not working reboot the terminal
+    reboot
+    
     
 
