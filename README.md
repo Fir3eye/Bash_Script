@@ -25,7 +25,7 @@
 ## Now Set the banner in your Terminal Background
     vi ~/.bashrc 
 
-## Banner Script
+## Add script in bashrc file in the last section
     #!/bin/bash
 
     #############################################################
@@ -33,7 +33,10 @@
     figlet -f digital "Description of our terminal" | lolcat
     #############################################################
 
-## Restart the Terminal
+## Save file and use Sudo su 
+    # press 'esc'
+    # press ':'
+    # press 'wq' Enter
     sudo su
 
 ## If not working reboot the terminal
