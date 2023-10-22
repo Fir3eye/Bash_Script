@@ -1,9 +1,11 @@
 # Create Banner for our Terminal 
+	
+![image](https://github.com/Fir3eye/Bash_Script/assets/93431222/586d399a-ac6b-47df-8f4d-0e4d9610d215)
+
   ## First you need to install the figlet and lolcat 
     which figlet
     apt install figlet
     apt install lolcat
-    figlet --version
 
 ## Write your own script
     touch banner.sh
@@ -15,7 +17,13 @@
     figlet -f slant "Terminal Name" | lolcat
     figlet -f digital "Description of your terminal" | lolcat
     #############################################################
-    
+
+## Save file and use Sudo su 
+    # press 'esc'
+    # press ':'
+    # press 'wq' Enter
+    sudo su
+
 ## Give the Permissions
     chmod +x banner.sh
     
@@ -33,14 +41,15 @@
     figlet -f digital "Description of our terminal" | lolcat
     #############################################################
 
-## Save file and use Sudo su 
-    # press 'esc'
-    # press ':'
-    # press 'wq' Enter
-    sudo su
-
 ## If not working reboot the terminal
     reboot
+
+## Result
+![image](https://github.com/Fir3eye/Bash_Script/assets/93431222/586d399a-ac6b-47df-8f4d-0e4d9610d215)
+
+
+	
+
     
     
 
